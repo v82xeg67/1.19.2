@@ -1,0 +1,41 @@
+
+#Combat Toggle server configuration
+[server]
+	#Cooldown duration in seconds (default 600 = 10 minutes)
+	#Range: 0 ~ 86400
+	cooldownSeconds = 600
+	#Combat tag duration after PvP interaction in seconds (default 30)
+	#Range: 0 ~ 3600
+	combatTagSeconds = 30
+	#If true, PvP only works when BOTH attacker and victim are in Combat mode. If false, only attacker matters.
+	requireBothCombatEnabled = true
+	#If true, players are forced into Combat mode while combat-tagged
+	forceCombatWhileTagged = true
+	#If true, players can still toggle while tagged. If false, toggling to Peace is denied while tagged.
+	allowToggleWhileTagged = false
+	#If true, admins can bypass cooldown via /combattoggle set ... bypass=true
+	allowAdminBypassCooldown = true
+	#If true, cooldown starts when player toggles mode
+	cooldownTriggersOnToggle = false
+	#If true, cooldown starts when player deals or receives PvP damage. Recommended: true
+	cooldownTriggersOnPvp = true
+	#If true (1.1.0 default), an active cooldown only blocks Combat -> Peace transitions; switching INTO Combat is always allowed. If false, the cooldown blocks toggles in either direction.
+	cooldownAppliesToPeaceOnly = true
+
+#Nameplate visual customization
+[nameplate]
+	#If true, adds text/emoji prefixes to player nameplates
+	useEmojiPrefixes = true
+	#Text/emoji prefix for Combat mode players. Only BMP Unicode (U+0000-U+FFFF) renders in Minecraft's font.
+	combatEmoji = "âš” "
+	#Text/emoji prefix for Peace mode players. Only BMP Unicode (U+0000-U+FFFF) renders in Minecraft's font.
+	peaceEmoji = "â˜• "
+	#If true, uses scoreboard team colors (RED for Combat, BLUE for Peace)
+	useNameplateColors = true
+	#Use scoreboard teams for nameplate colors/prefixes. Disable to avoid conflicts with other team-managing mods.
+	useScoreboardTeams = true
+	#Scoreboard team name for Combat mode players
+	combatTeamName = "ct_combat"
+	#Scoreboard team name for Peace mode players
+	peaceTeamName = "ct_peace"
+

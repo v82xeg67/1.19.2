@@ -1,0 +1,17 @@
+{
+  "head": "{Count:1b,id:\"minecraft:leather_helmet\",tag:{Damage:0}}",
+  "chest": "{Count:1b,id:\"minecraft:leather_chestplate\",tag:{Damage:0}}",
+  "legs": "{Count:1b,id:\"minecraft:leather_leggings\",tag:{Damage:0}}",
+  "feet": "{Count:1b,id:\"minecraft:leather_boots\",tag:{Damage:0}}",
+  "offhand": "{Count:1b,id:\"minecraft:shield\",tag:{Damage:0}}",
+  "0": "{Count:1b,id:\"minecraft:stone_sword\",tag:{Damage:0}}",
+  "1": "{Count:1b,id:\"minecraft:stone_pickaxe\",tag:{Damage:0}}",
+  "2": "{Count:1b,id:\"minecraft:stone_axe\",tag:{Damage:0}}",
+  "3": "{Count:16b,id:\"minecraft:cooked_beef\"}",
+  "4": "{Count:32b,id:\"minecraft:torch\"}",
+  "5": "{Count:1b,id:\"minecraft:water_bucket\"}",
+  "6": "{Count:1b,id:\"thirst:sand_filter\"}",
+  "7": "{Count:1b,id:\"thirst:canteen\",tag:{Damage:0}}",
+  "8": "{Count:64b,id:\"minecraft:cobblestone\"}",
+  "effects": "minecraft:regeneration;200;0"
+}
